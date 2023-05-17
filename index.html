@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+    <form action="" Get="Method">
+    <div id="paymentSelection">
+        <form action="" Get="Method">
+        <label for="type">Type:</label>
+        <select name="typeOfPayment" id="typeOfPayment">
+            <Option value="card">Card</Option>
+            <option value="Cash">Cash</option>
+            <option value="Crypto">Crypto</option>
+            <option value="Other">Other</option>
+        </select>
+    </div>
+    <div id="nameSelection">
+        <input type="text" id="nameOfExpense" placeholder="what was the expense for?">
+    </div>
+    <div id="amountSelection">
+        <input type="text"id="moneyInput" placeholder="How Much?">
+    </div>
+    <div id="dateSelection">
+        <input type="date" id="dateInput" placeholder="mm/dd/yyyy">
+    </div>
+    </form>
+    <button id="submitButton">Add Expense</button>
+    <table id ="mainTable"class="forTheTableStyling">
+        <tr>
+            <th id="tableType" class="forTheTableStyling">Type</th>
+            <th id="tableName" class="forTheTableStyling">Name</th>
+            <th id="tableDate" class="forTheTableStyling">Date</th>
+            <th id="tableAmount" class="forTheTableStyling">Amount</th>
+        </tr>
+        <tbody id="dataInputTable">
+        </tbody>
+
+    </table>
+    
+<script src="script.js"></script>
+</body>
+</html>
