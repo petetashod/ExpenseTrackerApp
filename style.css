@@ -2,13 +2,37 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    font: white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 table{
     width: 50%;
-}
+    
 
-.forTheTableStyling{
+}
+.tableDiv{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.forTheTableStyling, td{
     border: 1px solid;
     border-collapse: collapse;
+    text-align: center;
+}
+form{
+    display: flex;
+    justify-content:center 
+}
+
+.submitButtonStyling{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }

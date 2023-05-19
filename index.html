@@ -20,7 +20,7 @@
             <option value="Other">Other</option>
         </select>
     </div>
-    <div id="nameSelection">
+    <div class ="stylingInputs"id="nameSelection">
         <input type="text" id="nameOfExpense" placeholder="what was the expense for?">
     </div>
     <div id="amountSelection">
@@ -30,17 +30,22 @@
         <input type="date" id="dateInput" placeholder="mm/dd/yyyy">
     </div>
     </form>
-    <button id="submitButton">Add Expense</button>
-    <table id ="mainTable"class="forTheTableStyling">
-        <tr>
-            <th id="tableType" class="forTheTableStyling">Type</th>
-            <th id="tableName" class="forTheTableStyling">Name</th>
-            <th id="tableDate" class="forTheTableStyling">Date</th>
-            <th id="tableAmount" class="forTheTableStyling">Amount</th>
-        </tr>
-        <tbody id="dataInputTable">
-        </tbody>
-
+    <span class="submitButtonStyling"> 
+        <button id="submitButton">Add Expense</button>
+    </span>
+    
+    <div class="tableDiv">
+        <table id ="mainTable"class="forTheTableStyling">
+            <tr>
+                <th id="tableType" class="forTheTableStyling">Type</th>
+                <th id="tableName" class="forTheTableStyling">Name</th>
+                <th id="tableDate" class="forTheTableStyling">Date</th>
+                <th id="tableAmount" class="forTheTableStyling">Amount</th>
+            </tr>
+            <tbody id="dataInputTable">
+            </tbody>
+        </table>
+    </div>
     </table>
     
 <script src="script.js"></script>
