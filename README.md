@@ -19,4 +19,4 @@ After reviewing some of my past code that I had written and reading a couple of 
 
 ## Author
 
--   **Tashod Peterson** - _Full-Stack Software Developer_ - [LinkedIn](www.linkedin.com/in/tashod-peterson)
+-   **Tashod Peterson** - _Full-Stack Software Developer_ - LinkedIn (www.linkedin.com/in/tashod-peterson)
