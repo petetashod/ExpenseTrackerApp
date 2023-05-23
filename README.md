@@ -6,7 +6,7 @@ Expense Tracker written entirely in pure Javascript, HTML and CSS_
 
 <br>
 
-Play it [here](https://petetashod.github.io/ExpenseTrackerApp/)
+Try it [here](https://petetashod.github.io/ExpenseTrackerApp/)
 
 <br>
 
